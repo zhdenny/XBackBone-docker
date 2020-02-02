@@ -19,4 +19,4 @@ RUN wget "https://github.com/SergiX44/XBackBone/releases/download/${XBACKBONE_VE
 VOLUME [ "/app/", "/app/storage", "/app/resources/database", "/app/logs"]
 
 #Fix #3
-USER seed
+USER application
